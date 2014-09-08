@@ -1,0 +1,15 @@
+<manifest>
+    <!-- add github as a remote source -->
+    <remote name="github" fetch="git://github.com" />
+ 
+    <!-- remove CM repos and add my forks -->
+    <remove-project name="vendor/htc" />
+    <project path="vendor/htc" name="Team-Hydra/android_vendor_htc" remote="github" revision="cm-11.0" />
+ 
+    <!-- add my device trees -->
+    <project path="device/htc/msm8660-common" name="Team-Hydra/android_device_htc_msm8660-common" remote="github" revision="cm-11.0" />
+    <project path="device/htc/holiday" name="Team-Hydra/android_device_htc_holiday" remote="github" revision="cm-11.0" />
+    <project path="hardware/qcom/display-legacy" name="Team-Hydra/android_hardware_qcom_display-legacy" remote="github" revision="cm-11.0" />
+    <project path="hardware/qcom/media-legacy" name="CyanogenMod/android_hardware_qcom_media-legacy" remote="github" revision="cm-11.0" />
+    <project path="kernel/htc/msm8660" name="Team-Hydra/android_kernel_htc_msm8660" remote="github" revision="cm-11.0" />
+</manifest>
