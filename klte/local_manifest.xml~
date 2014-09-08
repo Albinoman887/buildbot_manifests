@@ -1,6 +1,6 @@
 <manifest>
     <!-- add github as a remote source -->
-   <!-- <remote name="github" fetch="git://github.com" /> -->
+    <remote name="github" fetch="git://github.com" />
  
     <!-- remove CM repos and add my forks -->
     <remove-project name="vendor/samsung" />
