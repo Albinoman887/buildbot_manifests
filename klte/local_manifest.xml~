@@ -1,21 +1,21 @@
 <manifest>
     <!-- add github as a remote source -->
-    <remote name="github" fetch="git://github.com" />
+   <remote name="personal" fetch="git://github.com" />
  
     <!-- remove CM repos and add my forks -->
-    <remove-project name="vendor/samsung" />
-    <remove-project name="hardware/qcom/audio-caf" />
-    <project path="vendor/samsung" name="Team-Hydra/android_vendor_samsung" remote="github" revision="cm-11.0" />
-    <project path="hardware/qcom/audio-caf" name="Team-Hydra/android_hardware_qcom_audio-caf" remote="github" revision="cm-11.0" />
+    <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
+    <remove-project name="CyanogenMod/proprietary_vendor_samsung" />
+    <project path="vendor/samsung" name="Team-Hydra/android_vendor_samsung" remote="personal" revision="cm-11.0" />
+    <project path="hardware/qcom/audio-caf" name="Team-Hydra/android_hardware_qcom_audio-caf" remote="personal" revision="cm-11.0" />
  
     <!-- add my device trees -->
-    <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-11.0" />
-    <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_msm8974-common" remote="github" revision="cm-11.0" />
-    <project path="device/samsung/msm8974-common" name="CyanogenMod/android_device_samsung_msm8974-common" remote="github" revision="cm-11.0" />
-    <project path="device/samsung/klte-common" name="Team-Hydra/android_device_samsung_klte-common" remote="github" revision="cm-11.0" />
-    <project path="device/samsung/klte" name="Team-Hydra/android_device_samsung_klte" remote="github" revision="cm-11.0" />
-    <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-11.0" />
-    <project path="hardware/qcom/display-caf-new" name="CyanogenMod/android_hardware_qcom_display-caf-new" remote="github" revision="cm-11.0" />
-    <project path="hardware/qcom/media-caf-new" name="CyanogenMod/android_hardware_qcom_media-caf-new" remote="github" revision="cm-11.0" />
-    <project path="kernel/samsung/klte" name="Team-Hydra/android_kernel_samsung_klte" remote="github" revision="cm-11.0" />
+    <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="personal" revision="cm-11.0" />
+    <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_msm8974-common" remote="personal" revision="cm-11.0" />
+    <project path="device/samsung/msm8974-common" name="CyanogenMod/android_device_samsung_msm8974-common" remote="personal" revision="cm-11.0" />
+    <project path="device/samsung/klte-common" name="Team-Hydra/android_device_samsung_klte-common" remote="personal" revision="cm-11.0" />
+    <project path="device/samsung/klte" name="Team-Hydra/android_device_samsung_klte" remote="personal" revision="cm-11.0" />
+    <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="personal" revision="cm-11.0" />
+    <project path="hardware/qcom/display-caf-new" name="CyanogenMod/android_hardware_qcom_display-caf-new" remote="personal" revision="cm-11.0" />
+    <project path="hardware/qcom/media-caf-new" name="CyanogenMod/android_hardware_qcom_media-caf-new" remote="personal" revision="cm-11.0" />
+    <project path="kernel/samsung/klte" name="Team-Hydra/android_kernel_samsung_klte" remote="personal" revision="cm-11.0" />
 </manifest>
