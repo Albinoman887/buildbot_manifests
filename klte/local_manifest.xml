@@ -4,7 +4,7 @@
  
     <!-- remove CM repos and add my forks -->
     <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
-    <remove-project name="TheMuppets/proprietary_vendor_samsung" />
+  <!--  <remove-project name="TheMuppets/proprietary_vendor_samsung" /> -->
     <project path="vendor/samsung" name="Team-Hydra/android_vendor_samsung" remote="personal" revision="cm-11.0" />
     <project path="hardware/qcom/audio-caf" name="Team-Hydra/android_hardware_qcom_audio-caf" remote="personal" revision="cm-11.0" />
  
