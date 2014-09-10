@@ -4,7 +4,6 @@
  
     <!-- remove CM repos and add my forks -->
     <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
-    <project path="vendor/samsung" name="Team-Hydra/android_vendor_samsung" remote="personal" revision="cm-11.0" />
     <project path="hardware/qcom/audio-caf" name="Team-Hydra/android_hardware_qcom_audio-caf" remote="personal" revision="cm-11.0" />
  
     <!-- add my device trees -->
@@ -17,4 +16,6 @@
     <project path="hardware/qcom/display-caf-new" name="CyanogenMod/android_hardware_qcom_display-caf-new" remote="personal" revision="cm-11.0" />
     <project path="hardware/qcom/media-caf-new" name="CyanogenMod/android_hardware_qcom_media-caf-new" remote="personal" revision="cm-11.0" />
     <project path="kernel/samsung/klte" name="Team-Hydra/android_kernel_samsung_klte" remote="personal" revision="cm-11.0" />
+
+    <project path="vendor/samsung" name="Team-Hydra/android_vendor_samsung" remote="personal" revision="cm-11.0" />
 </manifest>
