@@ -3,7 +3,7 @@
   <!-- <remote name="github" fetch="git://github.com" /> -->
  
     <!-- remove CM repos and add my forks -->
-    <remove-project path="TheMuppets/proprietary_vendor_samsung" />
+   <!-- <remove-project path="TheMuppets/proprietary_vendor_samsung" /> -->
     <project path="vendor/samsung" name="Team-Hydra/android_vendor_samsung" remote="github" revision="cm-11.0" />
  
     <!-- add my device trees -->
