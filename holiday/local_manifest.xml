@@ -1,9 +1,7 @@
 <manifest>
     <!-- add github as a remote source -->
-    <remote name="github" fetch="git://github.com" />
  
     <!-- remove CM repos and add my forks -->
-    <remove-project name="TheMuppets/proprietary_vendor_htc" />
     <project path="vendor/htc" name="Team-Hydra/android_vendor_htc" remote="github" revision="cm-11.0" />
  
     <!-- add my device trees -->
