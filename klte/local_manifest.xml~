@@ -2,12 +2,9 @@
     <!-- add github as a remote source -->
   <!-- <remote name="github" fetch="git://github.com" /> -->
  
-    <!-- remove CM repos and add my forks -->
-    <remove-project path="TheMuppets/proprietary_vendor_samsung" />
- 
     <!-- add my device trees -->
     <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-11.0" />
-    <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_msm8974-common" remote="github" revision="cm-11.0" />
+    <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-11.0" />
     <project path="device/samsung/msm8974-common" name="CyanogenMod/android_device_samsung_msm8974-common" remote="github" revision="cm-11.0" />
     <project path="device/samsung/klte-common" name="Team-Hydra/android_device_samsung_klte-common" remote="github" revision="cm-11.0" />
     <project path="device/samsung/klte" name="Team-Hydra/android_device_samsung_klte" remote="github" revision="cm-11.0" />
